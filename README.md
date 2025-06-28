@@ -85,10 +85,6 @@ model = joblib.load('svm_cat_dog_model.pkl')
 predictions = model.predict(test_data)
 ```
 
-```
-
-```
-
 ## 🔧 Technical Details
 
 ### Libraries Used
