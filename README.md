@@ -61,7 +61,7 @@ pip install numpy pandas scikit-learn opencv-python joblib
 ### Running the Project
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sukh-j-14/DogsVsCats.git
    cd DogsVsCats
    ```
 
