@@ -83,6 +83,24 @@ model = joblib.load('svm_cat_dog_model.pkl')
 
 # Make predictions
 predictions = model.predict(test_data)
+```
+
+## 📁 Project Structure
+
+```
+DogsVsCats/
+├── dogsvscats.ipynb          # Main Jupyter notebook with implementation
+├── svm_cat_dog_model.pkl     # Trained SVM model (1.5GB)
+├── submission.csv            # Predictions on test set
+├── sampleSubmission.csv      # Sample submission format
+├── train/                    # Training images (25,000 images)
+│   ├── cat.*.jpg            # Cat images
+│   └── dog.*.jpg            # Dog images
+├── test1/                    # Test images (12,500 images)
+│   └── *.jpg                # Unlabeled test images
+├── .gitignore               # Git ignore file
+└── README.md                # This file
+```
 
 ## 🔧 Technical Details
 
@@ -139,4 +157,4 @@ This project is for educational purposes. The dataset is provided by Kaggle and 
 
 Feel free to submit issues and enhancement requests!
 
----
+--- 
